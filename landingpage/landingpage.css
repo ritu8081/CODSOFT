@@ -41,8 +41,8 @@ body
 
 .header img 
 {
-    height: 80px;
-    width: 100px;
+    height: 78px;
+    width: 78px;
 }
 
 .header a{
@@ -462,7 +462,6 @@ body
     background-size: cover;
   
 }
-
 .policy .policy2 .row .col-6-two
 {
     /* border: 5px solid black; */
@@ -471,17 +470,30 @@ body
     background-color: white;
     gap: 2px;
     background-size: cover;
+    padding-top: 20px;
+    padding-left: 20px;
   
+}
+.policy .policy2 .row .col-6-two button
+{
+    background-color: brown;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;    
+    
 }
 
 .policy .policy2 .row .col-6-three
 {
     /* border: 5px solid black; */
-    height: 295px;
+    height: 305px;
     background-color: rgb(179, 78, 66);
 
     width: 350px;
     background-size: cover;
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
   
 }
 
@@ -490,43 +502,21 @@ body
 {
     /* border: 5px solid black; */
     background-color: brown;
-    height: 295px;
+    height: 305px;
     width: 400px;
     background-image: url('https://images01.nicepage.com/3f/93/3f93a8d64e7733bebfcf257992b470dd.jpeg');
     background-size: cover;
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact
 {   
     display: flex;
     justify-content: space-between;
     height: 600px;
     width: 100%;
-background-color: black;
+    background-color: black;
+
 }
-
-
 .contact .location
 {
   
@@ -536,8 +526,6 @@ background-color: black;
     margin-left: 7%;
     border-radius: 5px;
     box-shadow: 0 3px 10px black;
-
-
     margin-top: 3%;
     background-color: rgb(210, 209, 209);
 }
@@ -586,8 +574,6 @@ background-color: black;
 .form h3{
     font-weight: bold;
 }
-
-
 .form button
 {
     border: none;
@@ -596,49 +582,6 @@ background-color: black;
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer
 {
     height: 100px;
@@ -650,8 +593,6 @@ background-color: black;
     padding-top:30px;
     background-color: rgb(171, 169, 169);
 }
-
-
 
 /* .techno
 {   
