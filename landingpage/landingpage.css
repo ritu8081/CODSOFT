@@ -2,42 +2,33 @@ body
 {
     margin: 0;
 }
-
 .header
 {   text-align: center;
     /* padding: 30px; */
     height: 40px;
     font-size: xx-large;
     background-color: rgb(210, 209, 209);
-
 }
-
 .first 
 {   display: flex;
     align-content: center;
     height: 80px;
     background-color: rgb(210, 209, 209);
-
 }
-
+.first a{
+    color: rgb(77, 18, 18);
+}
 .second
 {
     display: flex;
     justify-content: flex-end;
-
 }
-
-
-
 .second a {
 
     flex: 1;
     max-width: 500px;
     color: rgb(77, 18, 18);
-
-
 }
-
 
 .header img 
 {
@@ -52,9 +43,6 @@ body
 .img
 
  { 
-      /* display: flex; */
-    /* justify-content: flex-end; */
-    /* align-content: flex-end; */ 
     width:100%;
     height: 700px;
     background-image: url('https://powerserviceluxurycarhire.com/wp-content/uploads/2018/02/services-rent-luxury-car-italy-power-service.jpg');
@@ -68,52 +56,20 @@ body
     width: 100%; 
     height: 700px;
     background-color: rgb(24, 1, 1, 0.7);
-    /* justify-content: center;
-    align-items: center; */
-
 }
-
-
 .img .head {
     display: flex;
     align-content: flex-end;
     flex-direction: column;
     justify-content: center;
-    /* border: 5px solid grey; */
-    /* margin-top: 60PX; */
     height: 450px;
     width: 470px;
-
     padding-top: 120px;
     padding-left: 50px;
     border-radius: 80%;
-    /* margin-right: -55px; */
     margin-top: -55px;
     background-color: rgb(77, 18, 18);
-   
-
 }
-
-
-/* .head .round 
-{   display: flex;
-    justify-content: space-around;
-    height: 110px;
-    width: 110px;
-    padding-bottom: 12px;
-    border-radius: 50%;
-    margin-left: -5%;
-    background-color: white;
-}
-
-.head .round1
-{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-top: 5px;
-   background-color: rgb(77, 18, 18);;
-    /* background-color: transparent; */
 
 .img .head h5{
     color: white;
@@ -123,10 +79,7 @@ body
 {   font-size: 40px;
     font-weight: bold;
     color: white;
-    
 }
-
-
 @media(max-width:1000px)
 {
     .img
@@ -139,18 +92,11 @@ body
         display: flex;
         align-items: flex-start;
         width: 200px;
-
-
-
     }
-
-
 }
-
 .largebox
 {    display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-between   
 }
 .car
 {   
@@ -172,19 +118,15 @@ body
     margin-right: -65%;
     background-image: url('https://images03.nicepage.com/c461c07a441a5d220e8feb1a/07a9666d670150be8047edcd/billionphotos1010979min.jpg');
     background-size: cover;
-    /* border:  5px solid wheat; */
-
 }
 
 .cartext {
     display: flex;
-    /* align-items: flex-start; */
     flex-direction: column;
     height: 500px;
     width: 550px;
     margin-top: 35px;
     margin-right: 35px;
-    /* border:  5px solid wheat; */
 
 }
 
@@ -194,31 +136,19 @@ body
     height: 20px;
     width: 150px;
     margin-top: 15%;
-    margin-left: 60px;
-    /* border:  5px solid wheat; */
-
-
-
-
+    margin-left: 60px;   
 }
-
 .cartext .text 
 {
     height: 300px;
     width: 400px;
     margin-left: 60px;
     padding-top: 10px;
-
-    /* border:  5px solid wheat; */
-
 }
 .text p 
 {
     color: black;
 }
-
-
-
 .text button 
 {
     background-color: black;
@@ -226,15 +156,12 @@ body
     padding-left: 20px;
     padding-right: 20px;
 }
-
-
 .car1
 {   display: flex;
     justify-content: space-between;
     flex-direction: row;
     height: 300px;
     width: 100%;
-    /* border:  5px solid wheat; */
     margin-top: 5px;
 
 }
@@ -245,7 +172,6 @@ body
     width: 400px;
     margin-left: 15%;
     margin-top: 5%;
-    /* border:  5px solid black; */
 }
 .car1 .para p 
 {
@@ -260,7 +186,6 @@ body
     width: 650px;
     margin-top: 5%;
     margin-right: 10%;
-    /* border:  5px solid black; */
 }
 
 .para h2{
@@ -271,9 +196,7 @@ body
 .logos .id
 {   
     height: 150px;
-    width: 100px;
-    /* border:  5px solid black; */
-   
+    width: 100px;   
 }
 .rental{
     height: 1300px;
@@ -284,10 +207,8 @@ body
 .rental1
 {   display: flex;
     justify-content: space-around;
-   
+  
 }
-
-
 .rental1 .p1 
 {
     height: 370px;
@@ -321,7 +242,6 @@ body
     font-weight: bold;
 }
 .rental1 .p2 h3{
-    /* background-color: rgb(179, 78, 66); */
     color:rgb(179, 78, 66) ;
     font-size: 40px;
     font-weight: bold;
@@ -331,9 +251,7 @@ body
     justify-content: space-between;
     flex-direction: row;
     height: 500px;
-    /* border:  5px solid white; */
-
-    
+        
 }
 .rental2 .p3
 {
@@ -424,7 +342,6 @@ body
     height: 650px;
     width: 100%;
     background-color: black;
-    /* background-color: white; */
 }
 
 
@@ -450,12 +367,10 @@ body
     justify-content: space-evenly;
     height: 600px;
     width: 760px;
-    /* border: 5px solid black; */
 }
 
 .policy .policy2 .row .col-6-one
 {
-    /* border: 5px solid black; */
     height: 295px;
     width: 400px;
     background-image: url('https://images01.nicepage.com/f8/e2/f8e2b5ef93ef2708b1e28dbba12f72d3.jpeg');
@@ -464,19 +379,19 @@ body
 }
 .policy .policy2 .row .col-6-two
 {
-    /* border: 5px solid black; */
     height: 295px;
     width: 350px;
-    background-color: white;
+    background-color:  rgb(179, 78, 66);
     gap: 2px;
     background-size: cover;
     padding-top: 20px;
+    color: white;
     padding-left: 20px;
   
 }
 .policy .policy2 .row .col-6-two button
 {
-    background-color: brown;
+    background-color: white;
     border: none;
     padding-left: 10px;
     padding-right: 10px;    
@@ -485,22 +400,19 @@ body
 
 .policy .policy2 .row .col-6-three
 {
-    /* border: 5px solid black; */
     height: 305px;
     background-color: rgb(179, 78, 66);
 
     width: 350px;
     background-size: cover;
     color: black;
+    color: white;
     padding-top: 20px;
     padding-left: 20px;
   
 }
-
-
 .policy .policy2 .row .col-6-four
 {
-    /* border: 5px solid black; */
     background-color: brown;
     height: 305px;
     width: 400px;
@@ -538,7 +450,6 @@ body
 {
     height: 50px;
     width: 50px;
-    /* border: solid 5px black ; */
 }
 
 .location h3
@@ -594,35 +505,3 @@ body
     background-color: rgb(171, 169, 169);
 }
 
-/* .techno
-{   
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    height: 400px;
-    width: 100%;
-    margin-top: 20px;
-    background-color: white;
-}
-
-.techno .techbox
-{   display: flex;
-    align-content: first baseline;
-    height: 200px;
-    width: 200px;
-    background-color: springgreen;
-    border: solid 5px black;
-    background-size: cover;
-    background-image: url('https://images01.nicepage.com/d4/59/d459afc2165bd356465b67137677beca.png');
-}
-
-h1{
-    text-align: center;
-    color: salmon;
-    font-weight: bolder;
-}
-  */
-
-
-
- 
